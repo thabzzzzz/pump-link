@@ -1,0 +1,55 @@
+.aboutIntro {
+    font-family: roboto;
+   
+    color: #000000;
+  
+    
+  }
+
+  .text {
+    font-family: roboto;
+    
+    padding: 0;
+    padding-right: 4px;
+    border-right: 2px solid #747474;
+    animation: blink 0.75s infinite;
+   
+  }
+
+  .blue {
+      color: #0c68b2 !important;
+    }
+    .green {
+      color: #183960 !important;
+    }
+    .yellow {
+      color: #0c68b2 !important;
+    }
+    .red {
+      color: #183960 !important;
+    }
+
+  
+  @keyframes blink {
+    from {
+      border: none;
+    }
+    to {
+      border-color: 2px solid #747474;
+    }
+  }
+  @media screen and (max-width: 670px) {
+    h1 {
+      font-size: 40px;
+    }
+    img {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    h1 {
+      font-size: 32px;
+    }
+  }
+  
