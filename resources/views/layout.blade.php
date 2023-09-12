@@ -10,6 +10,46 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light" style="      background-color: #f6f6f6;">
+         <a class="logo" href="home">
+         <img src="images/navbarLogo2.png" class="navBarLogo">
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler9"
+            aria-controls="navbarToggler9" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarToggler9">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link" href="home">Home</a>
+               </li>
+               <li>
+                  <a class="nav-link bar" href="#">  |  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="aboutUs"> About</a>
+               </li>
+               <li>
+                  <a class="nav-link bar" href="#"> |  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="services">Services</a>
+               </li>
+               <li>
+                  <a class="nav-link bar" href="#"> | </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contactUs">Contact</a>
+               </li>
+            </ul>
+            <form class="d-flex navbarSearch ">
+               <input class="form-control navSearch " type="search" placeholder="SEARCH" aria-label="Search">
+               <button class="btn btn-outline-primary searchButton" type="submit">
+                  <i class="bi bi-search"></i>
+               </button>
+            </form>
+         </div>
+      </nav>
 <div class="container">
     <div class="row">
         <div class="col-lg-12 col-sm-12 col-12">
