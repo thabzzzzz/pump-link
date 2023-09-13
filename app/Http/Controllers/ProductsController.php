@@ -7,7 +7,7 @@ use App\Models\Product;
  
 class ProductsController extends Controller
 {
-    public function index()
+    public function quote()
     {
         $products = Product::all();
         return view('products', compact('products'));

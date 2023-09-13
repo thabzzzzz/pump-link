@@ -58,7 +58,7 @@
          <div class="jumbotron">
             <h1 class="display-3 jumbHeader">For all your pump needs <br></h1>
             <p class="lead banner1Text">We provide fast and affordable services for your projects. Hire us<br><br></p>
-            <a href="generateQuote.php"><button class="button">Request a quote</button></a>
+            <a href="quote"><button class="button">Request a quote</button></a>
          </div>
 
 

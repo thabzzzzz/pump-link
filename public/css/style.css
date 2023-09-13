@@ -1026,6 +1026,28 @@ position: relative;
   width: 20px;
 }
 
+.cardIcons{
+  width: 70px;
+  height: 70px;
+  
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cardIcons2{
+  width: 70px;
+  height: 70px;
+  
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 
 
