@@ -15,7 +15,7 @@
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-light" style="      background-color: #f6f6f6;">
-         <a class="logo" href="home">
+         <a class="logo" href="/">
          <img src="images/navbarLogo2.png" class="navBarLogo">
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler9"
@@ -25,7 +25,7 @@
          <div class="collapse navbar-collapse" id="navbarToggler9">
             <ul class="navbar-nav">
                <li class="nav-item">
-                  <a class="nav-link" href="home">Home</a>
+                  <a class="nav-link" href="/">Home</a>
                </li>
                <li>
                   <a class="nav-link bar" href="#">  |  </a>
@@ -54,16 +54,23 @@
             </form>
          </div>
       </nav>
+      <div class="heroDiv col-8"  >
+         <div class="row heroRow">
+
+      <div data-aos="zoom-in-up" data-aos-duration="1000" class="heroText">
+
+      <h1>We do things right </h1>
+      <br>
+      <h5>We provide fast and affordable services for your projects. Hire us !</h5>
+      <br>
+      <a href="quote"><button class="button">Request a quote</button></a>
+      </div>
+      
+      <img src="gallery/pump.jpg" class="heroImg" data-aos="zoom-in-up" data-aos-duration="1500">
+      </div>
+      </div>
+      <hr class="double">
       <div class="container" >
-         <div class="jumbotron">
-            <h1 class="display-3 jumbHeader">For all your pump needs <br></h1>
-            <p class="lead banner1Text">We provide fast and affordable services for your projects. Hire us<br><br></p>
-            <a href="quote"><button class="button">Request a quote</button></a>
-         </div>
-
-
-
-         <hr class="double">
 
 
 

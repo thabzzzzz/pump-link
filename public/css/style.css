@@ -329,7 +329,7 @@ ul{
 }
 
 .inforow1{
-  margin-bottom:60px;
+  
 }
 
 
@@ -936,7 +936,7 @@ position: relative;
 }
 
 
-/* DEMO 1 ============================== */
+
 .hover-1 img {
   width: 105%;
   position: absolute;
@@ -1047,6 +1047,53 @@ position: relative;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.heroDiv{
+  background-color: #0c68b2;
+  
+  height: 100%;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 95%;
+}
+
+.navbar {
+
+  margin-bottom: 0px;
+}
+
+.heroImg{
+  position: relative;
+  top: -10%;
+  left: 75%;
+  width: 600px;
+  height: 400px;
+}
+
+.heroRow{
+  height: 100%;
+}
+
+.heroText{
+  top: 40%;
+  left: 25%;
+  position: relative;
+}
+
+h5{
+  color: #000;
+  font-family: space;
+}
+
+.double{
+  margin-top: 100px;
+
+  margin-bottom: 100px;
+}
+
 
 
 
