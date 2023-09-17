@@ -66,61 +66,60 @@
       <a href="quote"><button class="button">Request a quote</button></a>
       </div>
       
-      <img src="gallery/pump.jpg" class="heroImg" data-aos="zoom-in-up" data-aos-duration="1500">
+      <img src="gallery/pump.jpg" class="heroImg" id="tilt" data-aos="zoom-in-up" data-aos-duration="1500">
       </div>
       </div>
+
       <hr class="double">
+
+      <div class="row g-0 bg-info">
+
+      <div class="image-container col-sm-4">
+  <img src="gallery/supply.jpg" alt="Your Image" class="illustrationImg">
+  <div class="hover-box">
+   <br>
+   <br>
+   <br>
+   <h4 class="illustrationHeading">WE SUPPLY</h4>
+   <br>
+    <p>We supply a wide range of pumps suitable for various applications. We also provide installation services for pumps of any size from domestic to industrial pumps. There is no job too big for us.. </p>
+  </div>
+</div>
+
+<div class="image-container col-sm-4">
+  <img src="gallery/repair1.JPG" alt="Your Image" class="illustrationImg">
+  <div class="hover-box">
+  <br>
+   <br>
+   <br>
+   <h4 class="illustrationHeading">WE REPAIR</h4>
+   <br>
+<p>
+We repair and refurbish every type of pump from all industries. If your pump is broken or malfunctioning simply contact us and our specialists are always ready to assist. 
+</p>
+  </div>
+</div>
+
+<div class="image-container col-sm-4">
+  <img src="gallery/1.png" alt="Your Image" class="illustrationImg">
+  <div class="hover-box">
+  <br>
+   <br>
+   <br>
+   <h4 class="illustrationHeading">WE ADVISE</h4>
+   <br>
+<p>
+We offer expert advise on pumps of all types. We will also help you decide on which pump could be suitable for your existing or new requirement, domestic or industrial. </p>
+  </div>
+</div>
+
+      </div>
+      
       <div class="container" >
+      <hr class="double">
 
+      
 
-
-         <div class="row inforow1" >
-            <div class="col-md-4 row1" data-aos="zoom-in-down" data-aos-duration="1500">
-               <span class="illustrationSpans">
-               <img src="images/Supply.jpg" alt="supply illustration" class="illustrations">
-               </span>
-               <h2 class="illustrationHeaders">
-                  We supply
-               </h2>
-               <p class="row1p">
-                  We supply a wide range of pumps suitable for various applications. We also provide installation services for pumps of any size from domestic to industrial pumps. There is no job too big for us..            
-               </p>
-               <p>
-                  <a class="btn row1p" href="#">Learn more</a>
-               </p>
-            </div>
-            <div class="col-md-4 row1" data-aos="zoom-in-up" data-aos-duration="1500">
-               <span class="illustrationSpans">
-               <img src="images/Repair.jpg" alt="repair illustration" class="illustrations">
-               </span>
-               <h2 class="illustrationHeaders">
-                  We repair
-               </h2>
-               <p class="row1p">
-                  We repair and refurbish every type of pump from all industries. If your pump is broken or malfunctioning simply contact us and our specialists are always ready to assist.            
-               </p>
-               <p>
-                  <a class="btn row1p " href="#">Learn more</a>
-               </p>
-            </div>
-            <div class="col-md-4 row1" data-aos="zoom-in-down" data-aos-duration="1500">
-               <span class="illustrationSpans">
-               <img src="images/advice.jpg" alt="advice illustration" class="illustrations">
-               </span>
-               <h2 class="illustrationHeaders">
-                  We advise
-               </h2>
-               <p class="row1p">
-                  We offer expert advise on pumps of all types. We will also help you decide on which pump could be suitable for your existing or new requirement, domestic or industrial.            
-               </p>
-               <p>
-                  <a class="btn row1p" href="#">Learn more</a>
-               </p>
-            </div>
-         </div>
-
-
-         <hr class="double">
 
 
          <!-- about us -->
@@ -200,7 +199,7 @@
                      <div class="carousel-caption">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae maximus dui. Cras condimentum mauris elit. Vestibulum porta est ac magna porta viverra. Curabitur nunc dui, malesuada porta lacinia vitae, mollis eu elit. Etiam eleifend consequat semper. Donec maximus consequat odio, eu feugiat magna auctor nec. 
                         </p>
-                        <img src="https://i.imgur.com/lE89Aey.jpg">
+                        <img src="gallery/pro.jpg">
                         <div id="image-caption"><p class="clientNames">Client 1</p> </div>
                      </div>
                   </div>
@@ -208,7 +207,7 @@
                      <div class="carousel-caption">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae maximus dui. Cras condimentum mauris elit. Vestibulum porta est ac magna porta viverra. Curabitur nunc dui, malesuada porta lacinia vitae, mollis eu elit. Etiam eleifend consequat semper. Donec maximus consequat odio, eu feugiat magna auctor nec. 
                         </p>
-                        <img src="https://i.imgur.com/lE89Aey.jpg">
+                        <img src="gallery/pro.jpg">
                         <div id="image-caption"><p class="clientNames">Client 2</p> </div>
                      </div>
                   </div>
@@ -216,7 +215,7 @@
                      <div class="carousel-caption">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae maximus dui. Cras condimentum mauris elit. Vestibulum porta est ac magna porta viverra. Curabitur nunc dui, malesuada porta lacinia vitae, mollis eu elit. Etiam eleifend consequat semper. Donec maximus consequat odio, eu feugiat magna auctor nec. 
                         </p>
-                        <img src="https://i.imgur.com/lE89Aey.jpg">
+                        <img src="gallery/pro.jpg">
                         <div id="image-caption"><p class="clientNames">Client 3</p> </div>
                      </div>
                   </div>
@@ -306,7 +305,7 @@
       <!-- Footer -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      <script src="js/script.js"></script>
+      
       <script src="js/indexJS.js"></script>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
