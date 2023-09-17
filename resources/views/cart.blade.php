@@ -1,6 +1,13 @@
 @extends('layout')
    
 @section('content')
+<div>
+
+<h2 class="d-flex justify-content-center">LISTED ITEMS</h2>
+</div>
+<br>
+<br>
+<br>
 <table id="cart" class="table table-hover table-condensed">
     <thead>
         <tr>
@@ -43,12 +50,38 @@
         </tr>
         <tr>
             <td colspan="5" class="text-right">
-                <a href="{{ url('/') }}" class="btn btn-danger"> <i class="fa fa-arrow-left"></i> Continue Shopping</a>
-                <button class="btn btn-success"><i class="fa fa-money"></i> Checkout</button>
+                <a href="{{ url('/quote') }}" class="btn btn-danger"> <i class="fa fa-arrow-left"></i> Continue Shopping</a>
+                
             </td>
         </tr>
     </tfoot>
 </table>
+<div>
+
+<h2 class="d-flex justify-content-center">CUSTOMER PARTICULARS</h2>
+</div>
+
+<br><br><br>
+<form name="add-blog-post-form" id="add-blog-post-form" method="post" action="{{url('store-form')}}">
+       @csrf
+        <div class="form-group">
+          <label for="exampleInputEmail1">Title</label>
+          <input type="text" id="title" name="title" class="form-control" required="">
+        </div>
+
+        <div class="form-group">
+          <label for="frmName">Name</label>
+          <input type="text" id="frmName" name="frmName" class="form-control" required="">
+        </div>
+
+        <div class="form-group">
+          <label for="frmCompany">Company/Institution</label>
+          <input type="text" id="frmCompany" name="frmCompany" class="form-control" required="">
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
 @endsection
    
 @section('scripts')
@@ -95,3 +128,4 @@
    
 </script>
 @endsection
+

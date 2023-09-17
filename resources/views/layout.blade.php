@@ -42,12 +42,7 @@
                   <a class="nav-link" href="contactUs">Contact</a>
                </li>
             </ul>
-            <form class="d-flex navbarSearch ">
-               <input class="form-control navSearch " type="search" placeholder="SEARCH" aria-label="Search">
-               <button class="btn btn-outline-primary searchButton" type="submit">
-                  <i class="bi bi-search"></i>
-               </button>
-            </form>
+          
          </div>
       </nav>
 <div class="container">
