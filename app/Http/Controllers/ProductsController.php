@@ -4,9 +4,20 @@ namespace App\Http\Controllers;
  
 use Illuminate\Http\Request;
 use App\Models\Product; 
+use Barryvdh\DomPDF\Facade\Pdf;
  
 class ProductsController extends Controller
 {
+    public function viewQuote()
+    {
+        return view('quoteTemplate');
+    }
+
+    public function generateQuote()
+    {
+        return view('quoteTemplate');
+    }
+
     public function quote()
     {
         $products = Product::all();

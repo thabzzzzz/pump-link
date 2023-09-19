@@ -32,13 +32,13 @@
                             </div>
                         </div>
                     </td>
-                    <td data-th="Price">${{ $details['price'] }}</td>
+                    <td data-th="Price">R{{ $details['price'] }}</td>
                     <td data-th="Quantity">
                         <input type="number" value="{{ $details['quantity'] }}" class="form-control quantity cart_update" min="1" />
                     </td>
                     <td data-th="Subtotal" class="text-center">R {{ $details['price'] * $details['quantity'] }}</td>
                     <td class="actions" data-th="">
-                        <button class="btn btn-danger btn-sm cart_remove"><i class="fa fa-trash-o"></i> Delete</button>
+                        <button class="btn btn-danger btn-sm cart_remove cartDelete"><i class="fa fa-trash-o"></i> Delete</button>
                     </td>
                 </tr>
             @endforeach
@@ -80,8 +80,9 @@
         </div>
 
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+       
       </form>
+      <a href="/viewQuote" target="_blank"><button  class="btn btn-primary">Print Quote</button></a> 
 @endsection
    
 @section('scripts')
