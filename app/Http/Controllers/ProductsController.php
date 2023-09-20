@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Product; 
 use Barryvdh\DomPDF\Facade\Pdf;
- 
+use Illuminate\Support\Arr;
+
 class ProductsController extends Controller
 {
     public function viewQuote()
@@ -13,10 +14,7 @@ class ProductsController extends Controller
         return view('quoteTemplate');
     }
 
-    public function generateQuote()
-    {
-        return view('quoteTemplate');
-    }
+   
 
     public function quote()
     {
@@ -94,4 +92,15 @@ class ProductsController extends Controller
             session()->flash('success', 'Product successfully removed!');
         }
     }
+
+    public function generateQuote()
+    {   
+        $data=session('cart');
+        $pdf = Pdf::loadView('quoteTemplate', $data);
+        return $pdf->download('invoice.pdf');
+    }
+
+
+
+
 }
