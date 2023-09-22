@@ -62,7 +62,7 @@
 </div>
 
 <br><br><br>
-<form name="add-blog-post-form" id="add-blog-post-form" method="post" action="{{url('store-form')}}">
+<form  method="post" action="{{url('store-form')}}">
        @csrf
         <div class="form-group">
           <label for="exampleInputEmail1">Title</label>

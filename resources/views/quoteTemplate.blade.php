@@ -85,9 +85,31 @@
                 </th>
                 <th width="50%" colspan="2" class="text-end company-data">
                    
-                    <span>Date: {{ date('d / M / Y')}}</span> <br>
-                    <span>Time: {{ date(' H:i')}}</span> <br>
-                    <span>Company/Institution: </span> <br>
+                    <span>Pumplink</span> 
+                    <span>No 07, 4th Street, Malboro </span> 
+                    <span>Sandton</span> 
+                    <span>(+27) 11 262 2384</span> 
+                    <span>sales@pumplink.co.za</span> 
+                    
+                    <br>
+                 
+                </th>
+            </tr>
+            <tr>
+                <th width="50%" colspan="2">
+                    <h2 class="text-start">Pumplink </h2>
+                    <img src="android-chrome-192x192.png">
+                </th>
+                <th width="50%" colspan="2" class="text-end company-data">
+                   
+                    <span>Pumplink</span> 
+                    <span>No 07, 4th Street, Malboro </span> 
+                    <span>Sandton</span> 
+                    <span>(+27) 11 262 2384</span> 
+                    <span>sales@pumplink.co.za</span> 
+                    
+                    <br>
+                 
                 </th>
             </tr>
             <tr class="bg-blue">
@@ -97,24 +119,40 @@
         </thead>
         <tbody>
             <tr>
-                
+                <td>Company/Institution:</td>
+                <td></td>
 
                 <td>Full Name:</td>
                 <td></td>
             </tr>
             <tr>
-                
+                <td>Tracking Id/No.:</td>
+                <td></td>
 
                 <td>Email Id:</td>
                 <td></td>
             </tr>
             <tr>
-                
+                <td>Date:</td>
+                <td>{{ date('d / M / Y')}}</td>
 
                 <td>Phone:</td>
                 <td></td>
             </tr>
-           
+            <tr>
+                <td>Time:</td>
+                <td>{{ date(' H:i')}}</td>
+
+                <td>Address:</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Order Status:</td>
+                <td></td>
+
+                <td>Pin code:</td>
+                <td></td>
+            </tr>
         </tbody>
     </table>
 

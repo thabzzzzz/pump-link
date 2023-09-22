@@ -100,6 +100,11 @@ class ProductsController extends Controller
         return $pdf->download('invoice.pdf');
     }
 
+    public function getData(){
+
+        return "form data";
+    }
+
 
 
 
