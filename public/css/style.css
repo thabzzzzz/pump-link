@@ -879,7 +879,8 @@ optgroup {font-family: space !important;  }
 }
 
 .row7{
-  text-align:justify ;
+  
+  text-align: center;
 }
 
 .glanceText{
@@ -1248,6 +1249,17 @@ h2{
   background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
   filter: grayscale(0);
 }
+
+.nav-tabs .nav-item .nav-link.active {
+  color: #0080FF;
+}
+
+.glanceText{
+  color: #dfc058;
+  
+}
+
+
 
 
 
