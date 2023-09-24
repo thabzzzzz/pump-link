@@ -525,6 +525,11 @@ hr{
   background: #fff;
 }
 
+.nav-pills .nav-link.active i {
+  color: #dfc058 ;
+  background: #fff;
+}
+
 
 /* Add indicator arrow for the active tab */
 @media (min-width: 992px) {
@@ -1101,7 +1106,7 @@ h5{
   height: 400px;
   width: 400px;
  
-  background: rgba(255, 255, 255, 0.19);
+  background: rgba(223, 192, 88, .19);
 
   backdrop-filter: blur(6.4px);
   padding: 20px;
@@ -1109,7 +1114,8 @@ h5{
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
   text-align: center;
   border-style: solid;
-  border-color: white;
+  border-color: #dfc058;
+  border-width: 5px;
 }
 
 /* Style for the white text */
@@ -1133,18 +1139,7 @@ h5{
   color: white;
 }
 
-#tilt {
-  
-  transition: box-shadow 0.1s, transform 0.1s;
-  
- 
 
-}
-
-#tilt:hover {
-  box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
-  cursor: pointer;
-}
 
 .btn {
   position: relative;
@@ -1223,6 +1218,35 @@ h2{
 
 .cartDelete{
   background-color: #E31837;
+}
+
+
+.heroImg {
+  --color: #dfc058  ; /* the border color */
+  --border: 10px;   /* the border thickness*/
+  --offset: 20px;   /* control the offset*/
+  --gap: 5px;       /* the gap on hover */
+  
+  --_c: var(--color) var(--border), #0000 0 calc(100% - var(--border)),var(--color) 0;
+  --_o: calc(3*var(--offset));
+  padding: 
+    calc(var(--gap) + var(--border))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border) + var(--offset))
+    calc(var(--gap) + var(--border));
+  background: 
+    linear-gradient(      var(--_c)) var(--_o) var(--_o), 
+    linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
+  background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
+  background-repeat: no-repeat;
+  
+  transition: .5s;
+  cursor: pointer;
+}
+.heroImg:hover {
+  background-position: 0px 0px;
+  background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
+  filter: grayscale(0);
 }
 
 

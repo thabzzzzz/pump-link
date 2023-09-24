@@ -25,4 +25,8 @@ Route::get('/generate', [ProductsController::class, 'generateQuote']);
 Route::get('/viewQuote', [ProductsController::class, 'viewQuote']);
 
 //Form data
-Route::get('/users', [ProductsController::class, 'generateQuote']);
+Route::post('/users', [ProductsController::class, 'getData']);
+Route::view('login','users' );
+
+// Route::post('/viewQuote', [ProductsController::class, 'getData']);
+// Route::view('login','users' );

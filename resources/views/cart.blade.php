@@ -62,7 +62,9 @@
 </div>
 
 <br><br><br>
-<form  method="post" action="{{url('store-form')}}">
+
+<!-- form -->
+<form  method="get" action="cart">
        @csrf
         <div class="form-group">
           <label for="exampleInputEmail1">Title</label>
@@ -80,7 +82,7 @@
         </div>
 
 
-       
+       <button type="submit">Submit</button>
       </form>
       <a href="/viewQuote" target="_blank"><button  class="btn btn-primary">Print Quote</button></a> 
 @endsection

@@ -66,7 +66,7 @@
       <a href="quote"><button class="button">Request a quote</button></a>
       </div>
       
-      <img src="gallery/pump.jpg" class="heroImg" id="tilt" data-aos="zoom-in-up" data-aos-duration="1500">
+      <img src="gallery/pump.jpg" class="heroImg"  >
       </div>
       </div>
 
@@ -268,6 +268,7 @@ We offer expert advise on pumps of all types. We will also help you decide on wh
                         </div>
                      </div>
                   </div>
+                   
                </div>
                <div class="col-sm-4 footerCol">
                   <div class="footer-widget">

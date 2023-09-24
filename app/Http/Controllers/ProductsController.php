@@ -10,8 +10,9 @@ use Illuminate\Support\Arr;
 class ProductsController extends Controller
 {
     public function viewQuote()
-    {
-        return view('quoteTemplate');
+    {   
+       $data=session('cart');
+        return  $data;
     }
 
    
@@ -96,13 +97,15 @@ class ProductsController extends Controller
     public function generateQuote()
     {   
         $data=session('cart');
+      
+        
         $pdf = Pdf::loadView('quoteTemplate', $data);
         return $pdf->download('invoice.pdf');
     }
 
-    public function getData(){
-
-        return "form data";
+    public function getData(Request $req){
+        
+        return $req->input('title');
     }
 
 

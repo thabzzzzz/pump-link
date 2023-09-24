@@ -123,7 +123,7 @@
                 <td></td>
 
                 <td>Full Name:</td>
-                <td></td>
+                <td> </td>
             </tr>
             <tr>
                 <td>Tracking Id/No.:</td>
