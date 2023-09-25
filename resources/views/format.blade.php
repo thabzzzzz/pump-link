@@ -28,7 +28,7 @@
          <div class="collapse navbar-collapse" id="navbarToggler9">
             <ul class="navbar-nav">
                <li class="nav-item">
-                  <a class="nav-link" href="home">Home</a>
+                  <a class="nav-link" href="/">Home</a>
                </li>
                <li>
                   <a class="nav-link bar" href="#">  |  </a>
@@ -47,6 +47,12 @@
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="contactUs">Contact</a>
+               </li>
+               <li>
+                  <a class="nav-link bar" href="#"> | </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="community">Community</a>
                </li>
             </ul>
             <form class="d-flex navbarSearch ">
