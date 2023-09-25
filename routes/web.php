@@ -19,6 +19,7 @@ Route::get('/', [ProductsController::class, 'home']);
 Route::get('/aboutUs', [ProductsController::class, 'aboutUs']);
 Route::get('/services', [ProductsController::class, 'services']);
 Route::get('/contactUs', [ProductsController::class, 'contactUs']);
+Route::get('/community', [ProductsController::class, 'community']);
 
 //Quote generation
 Route::get('/generate', [ProductsController::class, 'generateQuote']);

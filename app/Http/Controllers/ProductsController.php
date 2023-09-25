@@ -108,7 +108,11 @@ class ProductsController extends Controller
         return $req->input('title');
     }
 
-
+    public function community()
+    {
+      
+        return view('community');
+    }
 
 
 }
