@@ -1,6 +1,7 @@
 @include('format')
     
 <div class="container">
+    <h4 class="aboutUsHeading">Meet the team</h4>
     <div class="row">
         <div class="col-md-4 col-sm-6">
             <div class="our-team">
@@ -99,9 +100,7 @@
                 </ul>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
+
         <div class="col-md-4 col-sm-6">
             <div class="our-team">
                 <img src="gallery/employee.png" alt="">
