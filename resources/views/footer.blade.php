@@ -6,9 +6,9 @@
                  <div class="footer-widget">
                     <h4>Stay in touch</h4>
                     <div class="footer-widget-content">
-                       <a href="mailto:sales@example.com" class="contact-link"></a>
-                       <a href="mailto:support@example.com" class="contact-link red"> sales@pumplink.co.za </a><br><br>
-                       <a href="tel:0121234" class="contact-link">+(27) 11 262 2384</a>
+                       <br>
+                      <h6> <a href="sales@pumplink.co.za " class="contact-link red"> sales@pumplink.co.za </a></h6><br>
+                      <h6> <a href="tel:+27112622384" class="contact-link">+(27) 11 262 2384</a>  </h6>
                     </div>
                  </div>
               </div>
@@ -33,30 +33,33 @@
                     <h4>Operating Hours</h4>
                     <div class="footer-widget-content">
                        <div class="open-time ">
+                        <br>
                           <ul class="opening-time">
                              <li>
                                 <span></span>
-                                <p ><strong>mon-fri  :</strong> 8am - 5pm </p>
+                                <h6 class="footerHours"><strong>mon-fri  :</strong> 8am - 5pm </h6>
                              </li>
                              <li>
                                 <span></span>
-                                <p><strong>sat :</strong> 8am - 1pm</p>
+                                <h6  class="footerHours"><strong>sat :</strong> 8am - 1pm</h6>
                              </li>
                              <li>
                                 <span></span>
-                                <p><strong>sun :</strong> closed</p>
+                                <h6 class="footerHours"><strong>sun :</strong> closed</h6>
                              </li>
                              <li>
                                 <span></span>
-                                <p><strong>holidays :</strong> 8am - 1pm</p>
+                                <h6 class="footerHours"><strong>holidays :</strong> 8am - 1pm</h6>
                              </li>
                           </ul>
                        </div>
                     </div>
                  </div>
               </div>
+             
               <div class="col-12">
-                 <p>Copyright &copy; 2023 - Pumplink All Right Reserved</p>
+               <br>
+                 <h6 class="footerHours">Copyright &copy; 2023 - Pumplink All Right Reserved</h6>
               </div>
            </div>
         </div>

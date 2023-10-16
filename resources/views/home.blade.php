@@ -1,17 +1,18 @@
 @include('format')
+      
       <div class="heroDiv col-8"  >
          <div class="row heroRow">
 
       <div data-aos="zoom-in-up" data-aos-duration="1000" class="heroText">
 
-      <h1>We do things right </h1>
+      <h1>Efficient and Reliable </h1>
       <br>
       <h5>We provide fast and affordable services for your projects. Hire us !</h5>
       <br>
       <a href="quote"><button class="button">Request a quote</button></a>
       </div>
       
-      <img src="gallery/pump.jpg" class="heroImg"  >
+      <img src="gallery/heroImage.png" class="heroImg"  >
       </div>
       </div>
 
@@ -20,7 +21,7 @@
       <div class="row g-0 bg-info">
 
       <div class="image-container col-sm-4">
-  <img src="gallery/supply.jpg" alt="Your Image" class="illustrationImg">
+  <img src="gallery/size/6.jpg" alt="Your Image" class="illustrationImg">
   <div class="hover-box">
    <br>
    <br>
@@ -32,7 +33,7 @@
 </div>
 
 <div class="image-container col-sm-4">
-  <img src="gallery/repair1.JPG" alt="Your Image" class="illustrationImg">
+  <img src="gallery/size/3.jpg" alt="Your Image" class="illustrationImg">
   <div class="hover-box">
   <br>
    <br>
@@ -46,7 +47,7 @@ We repair and refurbish every type of pump from all industries. If your pump is 
 </div>
 
 <div class="image-container col-sm-4">
-  <img src="gallery/1.png" alt="Your Image" class="illustrationImg">
+  <img src="gallery/size/2.jpg" alt="Your Image" class="illustrationImg illImg3">
   <div class="hover-box">
   <br>
    <br>
@@ -185,79 +186,4 @@ We offer expert advise on pumps of all types. We will also help you decide on wh
    
    
       <!-- Footer -->
-      <footer class="footer">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-4 footerCol">
-                  <div class="footer-widget">
-                     <h4>Stay in touch</h4>
-                     <div class="footer-widget-content">
-                        <a href="mailto:sales@example.com" class="contact-link"></a>
-                        <a href="mailto:support@example.com" class="contact-link red"> sales@pumplink.co.za </a><br><br>
-                        <a href="tel:0121234" class="contact-link">+(27) 11 262 2384</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-4 footerCol">
-                  <div class="footer-widget">
-                     <h4>Socials</h4>
-                     <div class="footer-widget-content">
-                        <div class="footer-social">
-                           <br><br> <br>
-                           <ul class="socialsList">
-                              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                              <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                              <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                              <li><a href="#"><i class="bi bi-youtube"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                   
-               </div>
-               <div class="col-sm-4 footerCol">
-                  <div class="footer-widget">
-                     <h4>Operating Hours</h4>
-                     <div class="footer-widget-content">
-                        <div class="open-time ">
-                           <ul class="opening-time">
-                              <li>
-                                 <span></span>
-                                 <p ><strong>mon-fri  :</strong> 8am - 5pm </p>
-                              </li>
-                              <li>
-                                 <span></span>
-                                 <p><strong>sat :</strong> 8am - 1pm</p>
-                              </li>
-                              <li>
-                                 <span></span>
-                                 <p><strong>sun :</strong> closed</p>
-                              </li>
-                              <li>
-                                 <span></span>
-                                 <p><strong>holidays :</strong> 8am - 1pm</p>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-12">
-                  <p>Copyright &copy; 2023 - Pumplink All Right Reserved</p>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- Footer -->
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      
-      <script src="js/indexJS.js"></script>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-      <script>
-         AOS.init();
-       </script>
-   </body>
-</html>
+      @include('footer')

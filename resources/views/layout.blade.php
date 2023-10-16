@@ -21,7 +21,7 @@
          <div class="collapse navbar-collapse" id="navbarToggler9">
             <ul class="navbar-nav">
                <li class="nav-item">
-                  <a class="nav-link" href="home">Home</a>
+                  <a class="nav-link" href="/">Home</a>
                </li>
                <li>
                   <a class="nav-link bar" href="#">  |  </a>
@@ -41,8 +41,14 @@
                <li class="nav-item">
                   <a class="nav-link" href="contactUs">Contact</a>
                </li>
+               <li>
+                  <a class="nav-link bar" href="#"> | </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="community">Community</a>
+               </li>
             </ul>
-          
+           
          </div>
       </nav>
 <div class="container">
@@ -50,7 +56,7 @@
         <div class="col-lg-12 col-sm-12 col-12">
             <div class="dropdown">
                 <button type="button" class="btn btn-primary" data-toggle="dropdown">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart <span class="badge badge-pill badge-danger">{{ count((array) session('cart')) }}</span>
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart <span class="badge badge-danger">{{ count((array) session('cart')) }}</span>
                 </button>
  
                 <div class="dropdown-menu">

@@ -174,10 +174,7 @@ body {
    
   }
 
-  .searchButton{
-    border-radius: 0%;
-    height: 100%;
-  }
+  
   
   .navSearch{
     border-radius: 0%;
@@ -244,21 +241,13 @@ footer a{
 
 }
 
-.panel-footer{
-  background-color:#337ab7;
-  border-color: #337ab7;
-  color: #FFFFFF;
 
- }
 
  .fa-magnifying-glass{
   color: #000000;
  }
 
- .searchButton{
-  position: relative;
 
- }
 
  .navSearch{
   border-style: solid;
@@ -281,7 +270,7 @@ footer a{
 
 .socialsList li{
   display: inline;
-
+  
   margin-right: 30px;
 }
 
@@ -334,21 +323,24 @@ ul{
 }
 
 .button {
-	--x: 50%;
-	--y: 50%;
-	
-	position: relative;
-	appearance: none;
-	padding: 1em 2em;
-	color: black;
-	cursor: pointer;
-	outline: none;
-	border-radius: 100px;
-  
+  color: black;
+  border: 2px solid #dfc058;
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
   font-family: roboto;
-	
-	border: 3px solid transparent;
-	background: linear-gradient(white, white) padding-box, radial-gradient(farthest-corner at var(--x) var(--y), #6ab5f1, #183960) border-box;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #dfc058;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+
+}
+
+.button:hover{
+  box-shadow: inset 400px 0 0 0 #dfc058;
 }
 
 .banner1Text,h1{
@@ -1040,6 +1032,7 @@ position: relative;
   background-color: #0080FF;
   
   height: 100%;
+  
 }
 
 html,
@@ -1437,6 +1430,31 @@ h2{
   margin-bottom: 50px;
 }
 
+.container{
+  scroll-snap-type: y mandatory;
+}
+
+.heroRow{
+ 
+  scroll-snap-align: start;
+}
+
+.bg-info{
+ 
+  scroll-snap-align: start;
+}
+
+.illImg3{
+  object-fit: fill;
+}
+
+.contact-link{
+  text-decoration: none;
+}
+
+.footerHours{
+  color: #000;
+}
 
 
 
