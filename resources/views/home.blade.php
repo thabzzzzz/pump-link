@@ -3,13 +3,15 @@
       <div class="heroDiv col-8"  >
          <div class="row heroRow">
 
-      <div data-aos="zoom-in-up" data-aos-duration="1000" class="heroText">
+      <div  class="heroText" >
 
       <h1>Efficient and Reliable </h1>
       <br>
       <h5>We provide fast and affordable services for your projects. Hire us !</h5>
       <br>
       <a href="quote"><button class="button">Request a quote</button></a>
+
+     
       </div>
       
       <img src="gallery/heroImage.png" class="heroImg"  >

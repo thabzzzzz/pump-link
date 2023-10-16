@@ -1,7 +1,7 @@
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-           <div class="row">
+       
+           <div class="row footerRow">
               <div class="col-sm-4 footerCol">
                  <div class="footer-widget">
                     <h4>Stay in touch</h4>
@@ -61,7 +61,7 @@
                <br>
                  <h6 class="footerHours">Copyright &copy; 2023 - Pumplink All Right Reserved</h6>
               </div>
-           </div>
+          
         </div>
      </footer>
      <!-- Footer -->
