@@ -1460,6 +1460,23 @@ h2{
   padding-top: 30px;
 }
 
+h1{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.faqH{
+  color: #0080FF;
+}
+
+.faqP{
+  margin-left: 30px;
+}
+
+.bi-arrow-down, .bi-arrow-up{
+  color: #dfc058;
+ 
+}
 
 
 

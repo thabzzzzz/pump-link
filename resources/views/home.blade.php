@@ -3,7 +3,7 @@
       <div class="heroDiv col-8"  >
          <div class="row heroRow">
 
-      <div  class="heroText" >
+      <div  class="heroText" data-aos="fade-down" data-aos-duration="1500"  >
 
       <h1>Efficient and Reliable </h1>
       <br>
@@ -73,7 +73,8 @@ We offer expert advise on pumps of all types. We will also help you decide on wh
          <!-- about us -->
       <div class="aboutUs">
          <h1 class="aboutUsHeading">About Us</h1>
-
+<br>
+<br>
          <p class="aboutUsText">In just under 5 years in the industry we have managed to service small and big clients in South Africa and the neighbouring countries. Let us help you as well.</p>
 
       </div>    
@@ -136,14 +137,14 @@ We offer expert advise on pumps of all types. We will also help you decide on wh
          <!--clients carousel-->
          <div class="clientsCarousel">
             <h1>Our Clients</h1>
-            <div id="carouselExampleCaptions" class="carousel slide">
+            <div id="carouselExampleCaptions" class="carousel slide " >
                <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" id="carind" class="active carind" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="carind"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="carind"></button>
                </div>
                <div class="carousel-inner">
-                  <div class="carousel-item active " data-bs-interval="10000">
+                  <div class="carousel-item active " data-bs-interval="6000">
                      <div class="carousel-caption">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae maximus dui. Cras condimentum mauris elit. Vestibulum porta est ac magna porta viverra. Curabitur nunc dui, malesuada porta lacinia vitae, mollis eu elit. Etiam eleifend consequat semper. Donec maximus consequat odio, eu feugiat magna auctor nec. 
                         </p>
@@ -151,15 +152,15 @@ We offer expert advise on pumps of all types. We will also help you decide on wh
                         <div id="image-caption"><p class="clientNames">Client 1</p> </div>
                      </div>
                   </div>
-                  <div class="carousel-item  " data-bs-interval="10000">
+                  <div class="carousel-item  " data-bs-interval="6000">
                      <div class="carousel-caption">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae maximus dui. Cras condimentum mauris elit. Vestibulum porta est ac magna porta viverra. Curabitur nunc dui, malesuada porta lacinia vitae, mollis eu elit. Etiam eleifend consequat semper. Donec maximus consequat odio, eu feugiat magna auctor nec. 
+                        <p>professional
                         </p>
-                        <img src="gallery/pro.jpg">
+                        <img src="images/professional.jpg">
                         <div id="image-caption"><p class="clientNames">Client 2</p> </div>
                      </div>
                   </div>
-                  <div class="carousel-item  " data-bs-interval="10000">
+                  <div class="carousel-item  " data-bs-interval="6000">
                      <div class="carousel-caption">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae maximus dui. Cras condimentum mauris elit. Vestibulum porta est ac magna porta viverra. Curabitur nunc dui, malesuada porta lacinia vitae, mollis eu elit. Etiam eleifend consequat semper. Donec maximus consequat odio, eu feugiat magna auctor nec. 
                         </p>

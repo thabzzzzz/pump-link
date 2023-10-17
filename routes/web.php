@@ -31,3 +31,7 @@ Route::view('login','users' );
 
 // Route::post('/viewQuote', [ProductsController::class, 'getData']);
 // Route::view('login','users' );
+
+
+//User data form upload
+Route::post('/services', [ProductsController::class, 'store'])->name('user.store');

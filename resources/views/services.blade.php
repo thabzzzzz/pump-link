@@ -8,6 +8,8 @@
          
          <section class="get-in-touch">
    <h4>Get in touch</h4>
+
+
    <form class="contact-form row">
       <div class="form-field col-lg-6">
          <input id="name" class="input-text js-input" type="text" required>
@@ -49,8 +51,8 @@
        
       <div class="form-field col-lg-12 ">
       <label for="queryText" class="messageLabel">Message :</label>
-    <textarea class="form-control" id="queryText" rows="3"></textarea>
-</div>
+      <textarea class="form-control" id="queryText" rows="3"></textarea>
+      </div>
 
       <div class="form-field col-lg-12">
          <button class="submit-btn testbutton button" type="submit" value="Submit" > Submit</button>
@@ -79,103 +81,48 @@
     <div class="faq-list">
       <ul>
         <li>
-        <i class="bi bi-question-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is lorem? <i class="bi bi-arrow-down icon-show" aria-hidden="true"></i><i class="bi bi-arrow-up icon-close"></i></a>
-          <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </li>
+          <a data-bs-toggle="collapse" data-bs-target="#faq-list-1" class="collapsed"><p class="faqH">What is lorem?</p> <i class="bi bi-arrow-down icon-show" aria-hidden="true"></i><i class="bi bi-arrow-up icon-close"></i></a>
+           <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+             <p class="faqP">
+               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+             </p>
+           </div>
+         </li>
 
         <li>
-          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What is lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></a>
+         <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed"><p class="faqH">What is lorem?</p> <i class="bi bi-arrow-down icon-show" aria-hidden="true"></i><i class="bi bi-arrow-up icon-close"></i></a>
           <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-            <p>
+            <p class="faqP">
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             </p>
           </div>
         </li>
 
         <li>
-          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></a>
-          <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </li>
+          <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed"><p class="faqH">What is lorem?</p> <i class="bi bi-arrow-down icon-show" aria-hidden="true"></i><i class="bi bi-arrow-up icon-close"></i></a>
+           <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+             <p class="faqP">
+               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+             </p>
+           </div>
+         </li>
 
-        <li>
-          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What is lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></a>
-          <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </li>
+         <li>
+          <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed"><p class="faqH">What is lorem?</p> <i class="bi bi-arrow-down icon-show" aria-hidden="true"></i><i class="bi bi-arrow-up icon-close"></i></a>
+           <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+             <p class="faqP">
+               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+             </p>
+           </div>
+         </li>
 
-        <li>
-          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></a>
-          <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </li>
+       
 
-        <li>
-          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-6" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></a>
-          <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </li>
+     
 
-        <li>
-          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-7" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></a>
-          <div id="faq-list-7" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </li>
+  
 
-        <li>
-          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-8" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></a>
-          <div id="faq-list-8" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </li>
 
-        <li>
-          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-9" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></a>
-          <div id="faq-list-9" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-10" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></a>
-          <div id="faq-list-10" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <i class="fa fa-question-circle icon-help" aria-hidden="true"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-11" class="collapsed">What is Lorem? <i class="fa fa-sm fa-angle-down icon-show" aria-hidden="true"></i><i class="fa fa-sm fa-angle-up icon-close"></i></a>
-          <div id="faq-list-11" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-          </div>
-        </li>
 
       </ul>
     </div>
@@ -198,79 +145,4 @@
    
    
       <!-- Footer -->
-      <footer class="footer">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-4 footerCol">
-                  <div class="footer-widget">
-                     <h4>Stay in touch</h4>
-                     <div class="footer-widget-content">
-                        <a href="mailto:sales@example.com" class="contact-link"></a>
-                        <a href="mailto:support@example.com" class="contact-link red"> sales@pumplink.co.za </a><br><br>
-                        <a href="tel:0121234" class="contact-link">+(27) 11 262 2384</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-4 footerCol">
-                  <div class="footer-widget">
-                     <h4>Socials</h4>
-                     <div class="footer-widget-content">
-                        <div class="footer-social">
-                           <br><br> <br>
-                           <ul class="socialsList">
-                              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                              <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                              <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                              <li><a href="#"><i class="bi bi-youtube"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-4 footerCol">
-                  <div class="footer-widget">
-                     <h4>Operating Hours</h4>
-                     <div class="footer-widget-content">
-                        <div class="open-time ">
-                           <ul class="opening-time">
-                              <li>
-                                 <span></span>
-                                 <p ><strong>mon-fri  :</strong> 8am - 5pm </p>
-                              </li>
-                              <li>
-                                 <span></span>
-                                 <p><strong>sat :</strong> 8am - 1pm</p>
-                              </li>
-                              <li>
-                                 <span></span>
-                                 <p><strong>sun :</strong> closed</p>
-                              </li>
-                              <li>
-                                 <span></span>
-                                 <p><strong>holidays :</strong> 8am - 1pm</p>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-12">
-                  <p>Copyright &copy; 2023 - Pumplink All Right Reserved</p>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- Footer -->
-      <script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
-      
-      
-      <script src="js/servicesJS.js"></script>
-   
-
-      
-      
-   </body>
-</html>
+      @include('footer')
