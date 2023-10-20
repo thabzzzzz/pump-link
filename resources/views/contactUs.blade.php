@@ -3,10 +3,10 @@
 
       <div class="container" >
          <div class="row page2row1 " >
-         <div class="col-6 map" data-aos="fade-right" data-aos-duration="1500">
+         <div class="col-6 map" >
             <h4 class="text-center">Our Offices</h4>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.1820515537365!2d27.95070247631948!3d-26.027598756806526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9572b46af65839%3A0x4be044fa0536c46e!2sPUMPLINK!5e0!3m2!1sen!2sza!4v1688654448437!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
-          <div class="col-6 contactusInfo" data-aos="fade-right" data-aos-duration="1700" >
+          <div class="col-6 contactusInfo"  >
           <h4>Before Contacting Us</h4>
           <br>
           <p>For simple queries we recommend that you send us an email. You are also welcome to call us for a discussion for a complex requirement, we can also arrange a meeting with you at your premise if necessary. </p>

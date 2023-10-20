@@ -107,7 +107,7 @@
 
             <div class="row flex-column">
 
-               <h4 class="cardsHeading">Who we've worked with</h4>
+               <h1 class="cardsHeading">Who we've worked with</h1>
 
                <div class="row cardsRow">
 
@@ -225,7 +225,7 @@
 
          <div class="glance">
 
-            <h4 class="atGlance">AT A GLANCE</h4>
+            <h1 class="atGlance">At a glance</h1>
 
             <div class="row row7">
               

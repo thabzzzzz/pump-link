@@ -3,7 +3,7 @@
 @section('content')
 <div>
 
-<h2 class="d-flex justify-content-center">LISTED ITEMS</h2>
+<h1 class="d-flex justify-content-center">Listed Items</h1>
 </div>
 <br>
 <br>
@@ -58,33 +58,14 @@
 </table>
 <div>
 
-<h2 class="d-flex justify-content-center">CUSTOMER PARTICULARS</h2>
+
 </div>
 
 <br><br><br>
 
-<!-- form -->
-<form  method="get" action="cart">
-       @csrf
-        <div class="form-group">
-          <label for="exampleInputEmail1">Title</label>
-          <input type="text" id="title" name="title" class="form-control" required="">
-        </div>
-
-        <div class="form-group">
-          <label for="frmName">Name</label>
-          <input type="text" id="frmName" name="frmName" class="form-control" required="">
-        </div>
-
-        <div class="form-group">
-          <label for="frmCompany">Company/Institution</label>
-          <input type="text" id="frmCompany" name="frmCompany" class="form-control" required="">
-        </div>
 
 
-       <button type="submit">Submit</button>
-      </form>
-      <a href="/viewQuote" target="_blank"><button  class="btn btn-primary">Print Quote</button></a> 
+      <a href="/generate" target="_blank"><button  class="btn btn-primary">Print Quote</button></a> 
 @endsection
    
 @section('scripts')

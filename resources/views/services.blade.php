@@ -79,12 +79,12 @@
          
    
          <hr class="double">
+         <h1>What we do</h1>
+         <div class="row" >
 
-         <div class="row" data-aos="fade-right" data-aos-duration="1500" >
+          
 
-          <h1>What we do</h1>
-
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500" >
             <div class="column servicesCol1">
               <h4>We Build Experiences</h4>
               <br>
@@ -92,13 +92,13 @@
               <h6 class="servicesText">We believe that buildings are not just meant to be occupied: they are meant to be experienced. We carefully source all our materials and craft all of our projects to build structures that transcend the commonplace. We reject the notion that keeping an eye on the bottom line means the end result will be compromised. Our seasoned team of professionals make quality choices every step of the way to ensure that we stay on budget and quickly respond to evolving project needs.</h6>
   
             </div>
-            <div class="column servicesImgDiv"><img src="gallery/services1.jpeg" class="framedImg servicesImg"  ></div>
+            <div class="column servicesImgDiv1"><img src="gallery/services1.jpeg" class=" servicesImg"  ></div>
 
           </div>
          
           <br><br><br>
-           <div class="row">
-            <div class="column servicesImgDiv"><img src="gallery/services1.jpeg" class="framedImg servicesImg"  ></div>
+           <div class="row" data-aos="fade-left" data-aos-duration="1500" >
+            <div class="column servicesImgDiv2"><img src="gallery/services1.jpeg" class=" servicesImg"  ></div>
             <div class="column servicesCol1">
               <h4>We Build Experiences</h4>
               <br>
@@ -110,7 +110,7 @@
 
           </div>
 
-          <div class="row">
+          <div class="row" data-aos="fade-right" data-aos-duration="1500" >
            
             <div class="column servicesCol1">
               <h4>We Build Experiences</h4>
@@ -119,7 +119,7 @@
               <h6 class="servicesText">We believe that buildings are not just meant to be occupied: they are meant to be experienced. We carefully source all our materials and craft all of our projects to build structures that transcend the commonplace. We reject the notion that keeping an eye on the bottom line means the end result will be compromised. Our seasoned team of professionals make quality choices every step of the way to ensure that we stay on budget and quickly respond to evolving project needs.</h6>
   
             </div>
-            <div class="column servicesImgDiv"><img src="gallery/services1.jpeg" class="framedImg servicesImg"  ></div>
+            <div class="column servicesImgDiv1"><img src="gallery/services1.jpeg" class=" servicesImg"  ></div>
             
 
           </div>

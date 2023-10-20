@@ -53,7 +53,7 @@
       </nav>
 <div class="container">
     <div class="row">
-        <div><h1 >List of our Products and Services</h1></div>
+        
         <div class="col-lg-12 col-sm-12 col-12">
             <div class="dropdown">
                 <button type="button" class="btn btn-primary" data-toggle="dropdown">

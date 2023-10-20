@@ -75,9 +75,19 @@
             height: 70px;
             width: 100px;
          }
+
+        footer{
+            bottom: 0%;
+            margin: auto;
+            position: fixed;
+            left: 0px;
+                right: 0px;
+                text-align: center;
+        }
     </style>
   <table class="order-details">
         <thead>
+        
             <tr>
                 <th width="50%" colspan="2">
                     <h2 class="text-start">Pumplink </h2>
@@ -86,26 +96,13 @@
                 <th width="50%" colspan="2" class="text-end company-data">
                    
                     <span>Pumplink</span> 
-                    <span>No 07, 4th Street, Malboro </span> 
-                    <span>Sandton</span> 
-                    <span>(+27) 11 262 2384</span> 
-                    <span>sales@pumplink.co.za</span> 
-                    
                     <br>
-                 
-                </th>
-            </tr>
-            <tr>
-                <th width="50%" colspan="2">
-                    <h2 class="text-start">Pumplink </h2>
-                    <img src="android-chrome-192x192.png">
-                </th>
-                <th width="50%" colspan="2" class="text-end company-data">
-                   
-                    <span>Pumplink</span> 
                     <span>No 07, 4th Street, Malboro </span> 
+                    <br>
                     <span>Sandton</span> 
+                    <br>
                     <span>(+27) 11 262 2384</span> 
+                    <br>
                     <span>sales@pumplink.co.za</span> 
                     
                     <br>
@@ -113,7 +110,7 @@
                 </th>
             </tr>
             <tr class="bg-blue">
-                <th width="50%" colspan="2">Order Details</th>
+                <th width="50%" colspan="2">Quotation Details</th>
                 <th width="50%" colspan="2">User Details</th>
             </tr>
         </thead>
@@ -201,3 +198,4 @@
        
     </tfoot>
 </table>
+<footer >Copyright &copy; 2023 - Pumplink All Rights Reserved</footer>
