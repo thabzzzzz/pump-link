@@ -7,6 +7,7 @@ use App\Models\Product;
 use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Arr;
 
+
 class ProductsController extends Controller
 {
     public function viewQuote()
@@ -113,6 +114,9 @@ class ProductsController extends Controller
       
         return view('community');
     }
+
+  
+    
 
 
 }

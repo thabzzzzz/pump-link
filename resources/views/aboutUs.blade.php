@@ -2,7 +2,7 @@
 
 
       <div class="container" >
-         <div class="row1 aboutUsrow1">   <h4 class="aboutIntro"> WE DON'T JUST SELL, WE <span class="text blue">ADVISE</span></h4></div>
+         <div class="row1 aboutUsrow1">   <h4 class="aboutIntro"> We don't just sell, we <span class="text blue">ADVISE</span></h4></div>
 
          <div class="row"></div>
 
@@ -107,7 +107,7 @@
 
             <div class="row flex-column">
 
-               <h4 class="cardsHeading">WHO WE'VE WORKED WITH</h4>
+               <h4 class="cardsHeading">Who we've worked with</h4>
 
                <div class="row cardsRow">
 

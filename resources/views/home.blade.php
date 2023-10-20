@@ -5,7 +5,7 @@
 
       <div  class="heroText" data-aos="fade-down" data-aos-duration="1500"  >
 
-      <h1>Efficient and Reliable </h1>
+      <h2 class="heroHeading">Efficient and Reliable </h2>
       <br>
       <h5>We provide fast and affordable services for your projects. Hire us !</h5>
       <br>
@@ -14,7 +14,7 @@
      
       </div>
       
-      <img src="gallery/heroImage.png" class="heroImg"  >
+      <img src="gallery/heroImage.png" class="heroImg framedImg"  >
       </div>
       </div>
 
@@ -85,7 +85,7 @@ We offer expert advise on pumps of all types. We will also help you decide on wh
          <!-- Pills navs -->
          <!-- Pills content -->
 
-         
+         <h1>Integrity. Always.</h1>
          <div class="d-flex align-items-start responsive-tab-menu">
      
              <ul class="nav flex-column nav-pills nav-tabs-dropdown me-4 " id="v-pills-tab" role="tablist"

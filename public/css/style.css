@@ -257,7 +257,7 @@ footer a{
  h4{
   font-family: roboto;
   color: black;
-  text-transform: uppercase;
+  
  }
 
 
@@ -1215,7 +1215,7 @@ h2{
 }
 
 
-.heroImg {
+.framedImg {
   --color: #dfc058  ; /* the border color */
   --border: 10px;   /* the border thickness*/
   --offset: 20px;   /* control the offset*/
@@ -1237,7 +1237,7 @@ h2{
   transition: .5s;
   cursor: pointer;
 }
-.heroImg:hover {
+.framedImg:hover {
   background-position: 0px 0px;
   background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
   filter: grayscale(0);
@@ -1478,6 +1478,52 @@ h1{
  
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.servicesCol1 {
+  text-align: center;
+ 
+}
+
+.servicesText{
+  font-family: roboto;
+}
+
+.servicesImg{
+  width: 600px;
+  height: 400px;
+
+}
+
+.servicesCol1{
+  padding-top: 120px;
+}
+
+.servicesImgDiv{
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.heroHeading{
+  font-size: 50px;
+}
+
+.clientsCarousel{
+  min-height:760px ;
+}
+
+.carousel{
+  min-height: 500px;
+}
 
 
 

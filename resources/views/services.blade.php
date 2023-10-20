@@ -3,76 +3,16 @@
 
 
       <div class="container" >
-         <div class="row1">  
+   
 
-         
-         <section class="get-in-touch">
-   <h4>Get in touch</h4>
-
-
-   <form class="contact-form row">
-      <div class="form-field col-lg-6">
-         <input id="name" class="input-text js-input" type="text" required>
-         <label class="label" for="name">Name :</label>
-      </div>
-      <div class="form-field col-lg-6 ">
-         <input id="email" class="input-text js-input" type="email" required>
-         <label class="label" for="email">E-mail :</label>
-      </div>
-      <div class="form-field col-lg-6 ">
-         <input id="company" class="input-text js-input" type="text" required>
-         <label class="label lbl" for="company">Company Name :</label>
-      </div>
-       <div class="form-field col-lg-6 ">
-         <input id="phone" class="input-text js-input" type="text" required>
-         <label class="label lbl" for="phone">Contact Number :</label>
-         
-      </div>
-      <p id="demo"></p>
-
-      <div class="form-group col-md-6 selectsRow">
-         <label for="natureOfQuery" class="nat natLabel">Nature of Query :</label>
-         <select id="natureOfQuery" class="form-control">
-           <option selected>Sale</option>
-           <option>Financial</option>
-           <option>Consultation</option>
-         </select>
-       </div>
-
-
-       <div class="form-group col-md-6 selectsRow">
-         <label for="contactMethod" class="nat contactMethodLebel">Prefered contact method :</label>
-         <select id="contactMethod" class="form-control">
-           <option selected>Phone</option>
-           <option>Email</option>
-           
-         </select>
-       </div>
-       
-      <div class="form-field col-lg-12 ">
-      <label for="queryText" class="messageLabel">Message :</label>
-      <textarea class="form-control" id="queryText" rows="3"></textarea>
-      </div>
-
-      <div class="form-field col-lg-12">
-         <button class="submit-btn testbutton button" type="submit" value="Submit" > Submit</button>
-      
-
-      </div>
-   </form>
-
-</section>
-         
-         </div>
-
-         <hr class="double">
+  
 
          <div class="row">
 
             <h1>FAQ</h1>
 
             <div>
-            <section id="faq" class="faq">
+            <section id="faq" class="faq" data-aos="fade-down" data-aos-duration="1500" >
   
     <div style="text-align:center;">
       
@@ -138,7 +78,56 @@
 
          
    
-     
+         <hr class="double">
+
+         <div class="row" data-aos="fade-right" data-aos-duration="1500" >
+
+          <h1>What we do</h1>
+
+          <div class="row">
+            <div class="column servicesCol1">
+              <h4>We Build Experiences</h4>
+              <br>
+              <br>
+              <h6 class="servicesText">We believe that buildings are not just meant to be occupied: they are meant to be experienced. We carefully source all our materials and craft all of our projects to build structures that transcend the commonplace. We reject the notion that keeping an eye on the bottom line means the end result will be compromised. Our seasoned team of professionals make quality choices every step of the way to ensure that we stay on budget and quickly respond to evolving project needs.</h6>
+  
+            </div>
+            <div class="column servicesImgDiv"><img src="gallery/services1.jpeg" class="framedImg servicesImg"  ></div>
+
+          </div>
+         
+          <br><br><br>
+           <div class="row">
+            <div class="column servicesImgDiv"><img src="gallery/services1.jpeg" class="framedImg servicesImg"  ></div>
+            <div class="column servicesCol1">
+              <h4>We Build Experiences</h4>
+              <br>
+              <br>
+              <h6 class="servicesText">We believe that buildings are not just meant to be occupied: they are meant to be experienced. We carefully source all our materials and craft all of our projects to build structures that transcend the commonplace. We reject the notion that keeping an eye on the bottom line means the end result will be compromised. Our seasoned team of professionals make quality choices every step of the way to ensure that we stay on budget and quickly respond to evolving project needs.</h6>
+  
+            </div>
+            
+
+          </div>
+
+          <div class="row">
+           
+            <div class="column servicesCol1">
+              <h4>We Build Experiences</h4>
+              <br>
+              <br>
+              <h6 class="servicesText">We believe that buildings are not just meant to be occupied: they are meant to be experienced. We carefully source all our materials and craft all of our projects to build structures that transcend the commonplace. We reject the notion that keeping an eye on the bottom line means the end result will be compromised. Our seasoned team of professionals make quality choices every step of the way to ensure that we stay on budget and quickly respond to evolving project needs.</h6>
+  
+            </div>
+            <div class="column servicesImgDiv"><img src="gallery/services1.jpeg" class="framedImg servicesImg"  ></div>
+            
+
+          </div>
+        </div> 
+
+        
+
+
       </div>
 
 

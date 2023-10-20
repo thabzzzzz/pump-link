@@ -1,10 +1,11 @@
 @include('format')
     
 <div class="container">
-    <h4 class="aboutUsHeading">Meet the team</h4>
     <br>
     <br>
+    <h1 class="aboutUsHeading">Meet the team</h1>
     <br>
+    
     <div class="row">
         <div class="col-md-4 col-sm-6">
             <div class="our-team">

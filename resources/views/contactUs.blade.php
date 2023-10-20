@@ -2,11 +2,11 @@
 
 
       <div class="container" >
-         <div class="row page2row1">
-         <div class="col-6 map">
+         <div class="row page2row1 " >
+         <div class="col-6 map" data-aos="fade-right" data-aos-duration="1500">
             <h4 class="text-center">Our Offices</h4>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.1820515537365!2d27.95070247631948!3d-26.027598756806526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9572b46af65839%3A0x4be044fa0536c46e!2sPUMPLINK!5e0!3m2!1sen!2sza!4v1688654448437!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
-          <div class="col-6 contactusInfo" >
+          <div class="col-6 contactusInfo" data-aos="fade-right" data-aos-duration="1700" >
           <h4>Before Contacting Us</h4>
           <br>
           <p>For simple queries we recommend that you send us an email. You are also welcome to call us for a discussion for a complex requirement, we can also arrange a meeting with you at your premise if necessary. </p>
@@ -29,7 +29,7 @@
          
          <!-- contact cards -->
          <div class="contactCards">
-            <div class="row cardRow">
+            <div class="row cardRow" >
 
             <div class="col-4 classCol">
                         <div class="card">
@@ -94,6 +94,9 @@
             </div>
             </div>
             </div>
+
+            <br>
+            <br>
             </div>
               
                
@@ -113,72 +116,4 @@
       
    
       <!-- Footer -->
-      <footer class="footer">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-4 footerCol">
-                  <div class="footer-widget">
-                     <h4>Stay in touch</h4>
-                     <div class="footer-widget-content">
-                        <a href="mailto:sales@pumplink.co.za" class="contact-link"></a>
-                        <a href="mailto:sales@pumplink.co.za" class="contact-link red"> sales@pumplink.co.za </a><br><br>
-                        <a href="tel:0121234" class="contact-link">+(27) 11 262 2384</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-4 footerCol">
-                  <div class="footer-widget">
-                     <h4>Socials</h4>
-                     <div class="footer-widget-content">
-                        <div class="footer-social">
-                           <br><br> <br>
-                           <ul class="socialsList">
-                              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                              <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                              <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                              <li><a href="#"><i class="bi bi-youtube"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-4 footerCol">
-                  <div class="footer-widget">
-                     <h4>Operating Hours</h4>
-                     <div class="footer-widget-content">
-                        <div class="open-time ">
-                           <ul class="opening-time">
-                              <li>
-                                 <span></span>
-                                 <p ><strong>mon-fri  :</strong> 8am - 5pm </p>
-                              </li>
-                              <li>
-                                 <span></span>
-                                 <p><strong>sat :</strong> 8am - 1pm</p>
-                              </li>
-                              <li>
-                                 <span></span>
-                                 <p><strong>sun :</strong> closed</p>
-                              </li>
-                              <li>
-                                 <span></span>
-                                 <p><strong>holidays :</strong> 8am - 1pm</p>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-12">
-                  <p>Copyright &copy; 2023 - Pumplink All Right Reserved</p>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- Footer -->
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-      <script src="js/script.js"></script>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
-   </body>
-</html>
+    @include('footer')
