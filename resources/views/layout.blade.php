@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+
    
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
@@ -96,16 +98,22 @@
    
 <br/>
 <div class="container">
-    <input type="text" placeholder="Search by Name/Description/Price" id="productSearch">
+
+    <h1>Our products and services</h1>
+   <input type="text" placeholder="Search by Name/Description/Price" id="productSearch"> 
+   <span><i class="fas fa-search icon"></i></span>
     @if(session('success'))
         <div class="alert alert-success">
           {{ session('success') }}
+          
         </div> 
     @endif
    
     @yield('content')
    
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
    <script>
 
 $(document).ready(function(){

@@ -1529,7 +1529,21 @@ h1{
   min-height: 500px;
 }
 
+#productSearch{
+  width: 400px;
+  margin-bottom: 50px;
+}
 
+.productCard{
+  margin-bottom: 60px;
+}
+
+.icon{
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  color: #000;
+}
 
 
 
