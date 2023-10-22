@@ -96,7 +96,7 @@
    
 <br/>
 <div class="container">
-    <input type="text" placeholder="search" id="productSearch">
+    <input type="text" placeholder="Search by Name/Description/Price" id="productSearch">
     @if(session('success'))
         <div class="alert alert-success">
           {{ session('success') }}
