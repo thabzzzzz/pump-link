@@ -18,7 +18,7 @@
    </head>
    <body>
    <nav class="navbar navbar-expand-lg navbar-light" style="      background-color: #f6f6f6;">
-         <a class="logo" href="home">
+         <a class="logo" href="/">
          <img src="images/navbarLogo2.png" class="navBarLogo">
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler9"

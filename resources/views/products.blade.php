@@ -5,7 +5,7 @@
      
 <div class="row">
     @foreach($products as $product)
-        <div class="col-xs-18 col-sm-6 col-md-4" style="margin-top:10px;">
+        <div class="col-xs-18 col-sm-6 col-md-4 productCard" style="margin-top:10px;">
             <div class="img_thumbnail productlist">
                 <img src="{{ asset('img') }}/{{ $product->photo }}" class="quoteIllustration">
                 <div class="caption">

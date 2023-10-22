@@ -3,11 +3,12 @@
 @section('content')
 <div>
 
-<h1 class="d-flex justify-content-center">Listed Items</h1>
+
 </div>
 <br>
 <br>
 <br>
+
 <table id="cart" class="table table-hover table-condensed">
     <thead>
         <tr>
@@ -56,6 +57,7 @@
         </tr>
     </tfoot>
 </table>
+
 <div>
 
 
@@ -63,12 +65,13 @@
 
 <br><br><br>
 
+<button  class="btn btn-primary" id="storeName">Name</button>
 
-
-      <a href="/generate" target="_blank"><button  class="btn btn-primary">Print Quote</button></a> 
+      <a href="/generate" target="_blank"><button  class="btn btn-primary" id="print">Print Quote</button></a> 
 @endsection
    
 @section('scripts')
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 <script type="text/javascript">
    
     $(".cart_update").change(function (e) {
@@ -109,7 +112,7 @@
             });
         }
     });
-   
+ 
 </script>
 @endsection
 

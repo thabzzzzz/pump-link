@@ -11,7 +11,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light" style="      background-color: #f6f6f6;">
-         <a class="logo" href="home">
+         <a class="logo" href="/">
          <img src="images/navbarLogo2.png" class="navBarLogo">
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler9"
@@ -96,7 +96,7 @@
    
 <br/>
 <div class="container">
-   
+    <input type="text" placeholder="search" id="productSearch">
     @if(session('success'))
         <div class="alert alert-success">
           {{ session('success') }}
@@ -104,8 +104,22 @@
     @endif
    
     @yield('content')
-</div>
    
+</div>
+   <script>
+
+$(document).ready(function(){
+  $("#productSearch").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".productCard").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+
+    </script>
 @yield('scripts')
 </body>
+
 </html>

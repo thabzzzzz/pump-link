@@ -85,6 +85,7 @@
                 text-align: center;
         }
     </style>
+  
   <table class="order-details">
         <thead>
         
@@ -120,7 +121,7 @@
                 <td></td>
 
                 <td>Full Name:</td>
-                <td> </td>
+                <td > </td>
             </tr>
             <tr>
                 <td>Tracking Id/No.:</td>
