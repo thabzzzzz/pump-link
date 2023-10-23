@@ -101,7 +101,7 @@ class ProductsController extends Controller
       
         
         $pdf = Pdf::loadView('quoteTemplate', $data);
-        return $pdf->download('invoice.pdf');
+        return $pdf->download('pumplinkQuote.pdf');
     }
 
     public function getData(Request $req){

@@ -1538,11 +1538,15 @@ h1{
   margin-bottom: 60px;
 }
 
-.icon{
+.fas{
   display: inline-block;
   height: 1rem;
   width: 1rem;
   color: #000;
+}
+
+.searchBarIcon{
+  margin-right: 10px;
 }
 
 

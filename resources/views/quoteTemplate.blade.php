@@ -68,7 +68,7 @@
             border: 1px solid #fff !important;
         }
         .bg-blue {
-            background-color: #414ab1;
+            background-color: #0080FF;
             color: #fff;
         }
          img{
@@ -112,45 +112,24 @@
             </tr>
             <tr class="bg-blue">
                 <th width="50%" colspan="2">Quotation Details</th>
-                <th width="50%" colspan="2">User Details</th>
+                <th width="50%" colspan="2"></th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Company/Institution:</td>
-                <td></td>
-
-                <td>Full Name:</td>
-                <td > </td>
-            </tr>
-            <tr>
-                <td>Tracking Id/No.:</td>
-                <td></td>
-
-                <td>Email Id:</td>
-                <td></td>
-            </tr>
+           
+          
             <tr>
                 <td>Date:</td>
-                <td>{{ date('d / M / Y')}}</td>
-
-                <td>Phone:</td>
-                <td></td>
+                <td colspan="3">{{ date('d / M / Y')}}</td>
+                
+                
             </tr>
             <tr>
                 <td>Time:</td>
-                <td>{{ date(' H:i')}}</td>
-
-                <td>Address:</td>
-                <td></td>
+                <td colspan="3">{{ date(' H:i')}}</td>
+               
             </tr>
-            <tr>
-                <td>Order Status:</td>
-                <td></td>
-
-                <td>Pin code:</td>
-                <td></td>
-            </tr>
+          
         </tbody>
     </table>
 
