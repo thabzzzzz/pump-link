@@ -59,7 +59,7 @@
              
               <div class="col-12">
                <br>
-                 <h6 class="footerHours">Copyright &copy; 2023 - Pumplink All Right Reserved</h6>
+                 <h6 class="footerHours">Copyright &copy; 2023 - Pumplink All Rights Reserved</h6>
               </div>
           
         </div>
