@@ -34,4 +34,4 @@ Route::view('login','users' );
 
 
 //User data form upload
-Route::post('/services', [ProductsController::class, 'store'])->name('user.store');
+Route::post('/generate', [ProductsController::class, 'generateQuote'])->name('generateQuote');

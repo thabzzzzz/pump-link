@@ -12,6 +12,7 @@ class ProductsController extends Controller
 {
     public function viewQuote()
     {   
+        
        $data=session('cart');
         return  $data;
     }
@@ -95,12 +96,22 @@ class ProductsController extends Controller
         }
     }
 
-    public function generateQuote()
+    public function generateQuote(Request $request)
     {   
-        $data=session('cart');
-      
+        $username = $request->username;
+
+        $data = session('cart') ?? []; 
         
-        $pdf = Pdf::loadView('quoteTemplate', $data);
+        $newItem = ['name' => $username];
+        
+        array_push($data, $newItem);
+    
+        $pdfData = [
+            'data' => $data,
+            'username' => $username,
+        ];
+    
+        $pdf = Pdf::loadView('quoteTemplate', $pdfData);
         return $pdf->download('pumplinkQuote.pdf');
     }
 
@@ -115,7 +126,9 @@ class ProductsController extends Controller
         return view('community');
     }
 
-  
+  public function store(Request $request){
+    dd($request);
+  }
     
 
 

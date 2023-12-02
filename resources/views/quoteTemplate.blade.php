@@ -105,7 +105,7 @@
                     <span>(+27) 11 262 2384</span> 
                     <br>
                     <span>sales@pumplink.co.za</span> 
-                    
+                 
                     <br>
                  
                 </th>
@@ -116,7 +116,11 @@
             </tr>
         </thead>
         <tbody>
-           
+            <tr>
+                <td>Customer name:</td>
+                <td colspan="3">{{$username}}</td>
+               
+            </tr>
           
             <tr>
                 <td>Date:</td>
@@ -129,6 +133,7 @@
                 <td colspan="3">{{ date(' H:i')}}</td>
                
             </tr>
+            
           
         </tbody>
     </table>
@@ -170,7 +175,7 @@
                 
 @endforeach
     </tbody>
-
+    
     <tfoot>
         <tr>
             <td colspan="4" class="text-right"><h3><strong>Total R {{ $total }}</strong></h3></td>

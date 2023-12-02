@@ -52,10 +52,11 @@
         <tr>
             <td colspan="5" class="text-right">
                 <a href="{{ url('/quote') }}" class="btn btn-danger"> <i class="fa fa-arrow-left"></i> Continue Shopping</a>
-                
+              
             </td>
         </tr>
     </tfoot>
+ 
 </table>
 
 <div>
@@ -65,7 +66,12 @@
 
 <br><br><br>
 
-<button  class="btn btn-primary" id="storeName">Name</button>
+<form action="{{route('generateQuote')}}" method="post">
+    @csrf
+    @method('post')
+   <span><label for="user-name">Name: </label><input type="text" name="username"></span>
+   <button type="submit">submit</button>
+</form>
 
       <a href="/generate" target="_blank"><button  class="btn btn-primary" id="print">Print Quote</button></a> 
 @endsection

@@ -112,7 +112,8 @@
     @endif
    
     @yield('content')
-   
+ 
+  
 </div>
 
    <script>
