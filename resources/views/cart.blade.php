@@ -70,6 +70,8 @@
     @csrf
     @method('post')
    <span><label for="user-name">Name: </label><input type="text" name="username"></span>
+   <span><label for="user-name">Company / Institution: </label><input type="text" name="company"></span>
+   <span><label for="user-name">Address: </label><input type="text" name="address"></span>
    <button type="submit">submit</button>
 </form>
 

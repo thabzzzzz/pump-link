@@ -99,16 +99,20 @@ class ProductsController extends Controller
     public function generateQuote(Request $request)
     {   
         $username = $request->username;
+        $address = $request->address;
+        $company = $request->company;
 
         $data = session('cart') ?? []; 
         
-        $newItem = ['name' => $username];
+        $newItem = ['name' => $username,'address' => $address,'company' => $company,];
         
         array_push($data, $newItem);
     
         $pdfData = [
             'data' => $data,
             'username' => $username,
+            'company' => $company,
+            'address' => $address,
         ];
     
         $pdf = Pdf::loadView('quoteTemplate', $pdfData);

@@ -121,6 +121,16 @@
                 <td colspan="3">{{$username}}</td>
                
             </tr>
+            <tr>
+                <td>Company / Institution:</td>
+                <td colspan="3">{{$company}}</td>
+               
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td colspan="3">{{$address}}</td>
+               
+            </tr>
           
             <tr>
                 <td>Date:</td>
