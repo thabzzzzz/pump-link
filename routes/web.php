@@ -1,7 +1,8 @@
 <?php
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductsController;
- 
+use Illuminate\Support\Facades\Artisan;
+
 //Route::get('/', function () {
 //    return view('welcome');
 //});
@@ -35,3 +36,11 @@ Route::view('login','users' );
 
 //User data form upload
 Route::post('/generate', [ProductsController::class, 'generateQuote'])->name('generateQuote');
+
+//host setup
+Route::get('/run-migration',function(){
+    Artisan::call('optimize:clear');
+    Artisan::call('migrate:fresh --seed');
+
+    return "migrations success";
+});
